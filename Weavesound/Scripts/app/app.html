@@ -1,0 +1,16 @@
+<h1>Hello world</h1>
+
+<ul>
+	<li><a [routerLink]="['Dashboard']">Dashboard</a></li>
+	<li><a [routerLink]="['Top']">Top</a></li>
+</ul>
+
+<router-outlet></router-outlet>
+
+<br><br>
+
+<div>
+<iframe [src]="iframeUrl | safe" style='overflow:hidden;height:152px;width:530px;border: 0;margin:0;'></iframe>
+</div>
+
+<div>Songid: {{songId}}</div>

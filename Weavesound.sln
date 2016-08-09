@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weavesound", "Weavesound\Weavesound.csproj", "{71DBACAF-E27F-4CF2-B16B-761A81C0A8F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weavesound.Model", "Weavesound.Model\Weavesound.Model.csproj", "{1AEE8543-582B-4E42-A792-577624BA9039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weavesound.DAL", "Weavesound.DAL\Weavesound.DAL.csproj", "{5BFA482B-16B1-439E-9D28-52AFA86319B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weavesound.Repository", "Weavesound.Repository\Weavesound.Repository.csproj", "{3BE0EED4-45C4-42A4-A380-3AAA5839E6F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71DBACAF-E27F-4CF2-B16B-761A81C0A8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DBACAF-E27F-4CF2-B16B-761A81C0A8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DBACAF-E27F-4CF2-B16B-761A81C0A8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DBACAF-E27F-4CF2-B16B-761A81C0A8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEE8543-582B-4E42-A792-577624BA9039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEE8543-582B-4E42-A792-577624BA9039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEE8543-582B-4E42-A792-577624BA9039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEE8543-582B-4E42-A792-577624BA9039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFA482B-16B1-439E-9D28-52AFA86319B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFA482B-16B1-439E-9D28-52AFA86319B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFA482B-16B1-439E-9D28-52AFA86319B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFA482B-16B1-439E-9D28-52AFA86319B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE0EED4-45C4-42A4-A380-3AAA5839E6F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE0EED4-45C4-42A4-A380-3AAA5839E6F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE0EED4-45C4-42A4-A380-3AAA5839E6F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE0EED4-45C4-42A4-A380-3AAA5839E6F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
