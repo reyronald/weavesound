@@ -1,0 +1,13 @@
+<button (click)="onChangeSong()">change song dashboard</button>
+
+<div *ngIf="!!_files">
+	<ul *ngFor="let file of _files">
+		<li><button (click)="onChangeSong(file.id)">{{ file.name }}</button></li>
+	</ul>
+	<ul>
+		<li><button (click)="onChangeSong('HOfXwfLcba')">Steal My Girl</button></li>
+		<li><button (click)="onChangeSong('oj92psN6')">01 Do Jeito Que Eu Sou</button></li>
+	</ul>
+</div>
+
+<div>Done</div>

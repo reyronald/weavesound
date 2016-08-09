@@ -10,7 +10,7 @@ import {SafePipe} from './safe.pipe';
 
 @Component({
     selector: 'my-app',
-    templateUrl: '/app/app.html', 
+    templateUrl: '/Scripts/app/app.html', 
     directives: [ROUTER_DIRECTIVES],
 	providers: [
 		ROUTER_PROVIDERS,
