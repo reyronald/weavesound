@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Weavesound.DAL.DatabaseInitializers;
 using Weavesound.DAL.Migrations;
 using Weavesound.Model;
 
@@ -17,9 +18,10 @@ namespace Weavesound.DAL
         public static WeavesoundDbContext Create()
             => new WeavesoundDbContext();
 
-        public WeavesoundDbContext()
+        public WeavesoundDbContext() : base("name=DefaultConnection")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<WeavesoundDbContext, Configuration>());
+
+            Database.SetInitializer(new MigrateDatabaseToLatestVersionAndSeedOnce());
 
             Configuration.AutoDetectChangesEnabled = true;
             Configuration.LazyLoadingEnabled = false;
