@@ -1,7 +1,7 @@
 {
-  "name": "angular2-quickstart",
+  "name": "weavesound",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "Weavesound",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "docker-build": "docker build -t ng2-quickstart .",
@@ -18,7 +18,7 @@
     "webdriver:update": "webdriver-manager update"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ronald Rey",
   "license": "ISC",
   "dependencies": {
     "@angular/common": "2.0.0-rc.4",
@@ -51,7 +51,6 @@
     "karma-jasmine": "^0.3.8",
     "lite-server": "^2.2.0",
     "lodash": "^4.11.1",
-    "oauth": "^0.9.14",
     "protractor": "^3.3.0",
     "rimraf": "^2.5.2",
     "tslint": "^3.7.4",
