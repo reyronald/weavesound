@@ -15,6 +15,7 @@
   "devDependencies": {
     "dotenv": "^2.0.0",
     "oauth": "^0.9.14",
+    "request": "^2.74.0",
     "tslint": "^3.7.4",
     "typescript": "^1.8.10",
     "typings": "^1.0.4"

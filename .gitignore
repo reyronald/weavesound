@@ -1,4 +1,5 @@
 .env
+.mp3
 
 ###########################
 ## Angular2 and Front End related
@@ -10,7 +11,7 @@ node_modules
 jspm_packages
 link-checker-results.txt
 **/*npm-debug.log.*
-*.js
+build
 *.js.map
 e2e/**/*.js
 e2e/**/*.js.map
@@ -281,3 +282,4 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+*.mp3
